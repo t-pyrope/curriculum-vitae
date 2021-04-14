@@ -9,12 +9,14 @@ import Contacts from './components/Contacts';
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Line />
-      <Skills />
-      <Education />
-      <Experience />
-      <Contacts />
+      <div className="container">
+        <Header />
+        <Line />
+        <Skills />
+        <Education />
+        <Experience />
+        <Contacts />
+      </div>
     </div>
   );
 }

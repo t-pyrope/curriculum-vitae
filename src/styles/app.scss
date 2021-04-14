@@ -1,3 +1,5 @@
+@import 'config';
+
 *{
     margin: 0;
     padding: 0;
@@ -5,9 +7,24 @@
 }
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;
-    color: rgb(34, 34, 34);
-    background-color:rgb(236, 236, 236)
+    font-family: $regular-font;
+    color: $text-color;
+    background: $fallback;
+    background: $pink-gradient;
+}
+
+.container {
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+
+    @media (max-width: 1000px){
+        width: 90%;
+    }
+}
+
+button {
+    cursor: pointer;
 }
 
 button:focus {

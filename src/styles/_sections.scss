@@ -1,6 +1,8 @@
+@import './config';
+
 .section {
-    width: 60%;
-    margin: 2rem auto;
+    width: 90%;
+    margin: 2.5rem auto;
 }
 
 ul {
@@ -11,7 +13,7 @@ h3 {
     font-size: 2rem;
     font-weight: 400;
     margin-bottom: 0.5rem;
-    font-family: 'Lora', serif;
+    font-family: $header3-font;
 }
 
 li {
@@ -20,11 +22,11 @@ li {
 }
 
 a {
-    color: rgb(238, 74, 45);
+    color: $link-color;
 }
 
 .last {
-    margin-bottom: 3rem;
+    padding-bottom: 3.5rem;
 }
 
 @media (max-width: 1000px){

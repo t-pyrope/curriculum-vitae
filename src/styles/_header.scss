@@ -1,11 +1,13 @@
+@import './config';
+
 .header {
-    width: 60%;
+    width: 90%;
     display: flex;
     justify-content: flex-start;
     margin: auto;
     margin-bottom: 2rem;
     margin-top: 1rem;
-    padding-top: 1rem;
+    padding-top: 4rem;
     position: relative;
 
     img {
@@ -16,12 +18,15 @@
 
 .languages {
     position: absolute;
-    top: 0%;
+    top: 10%;
     right: 0%;
 
     button {
         border: none;
         margin-right: 0.5rem;
+        img {
+            pointer-events: none;
+        }
     }
 
     button:active {
@@ -47,14 +52,14 @@ img.photo {
 h1 {
     font-size: 3rem;
     font-weight:400;
-    font-family: 'Roboto Mono', monospace;
+    font-family: $header1-font;
     margin-bottom: 0.5rem;
 }
 
 .bubble {
     margin-bottom: 0.5rem;
-    background-color: rgb(238, 74, 45);
-    color: white;
+    background-color: $bubble-color;
+    color: $bubble-text;
     padding: 0.3rem 0.7rem;
     font-size: 1rem;
     display: inline-block;
@@ -67,15 +72,14 @@ h1 {
 }
 
 .line {
-    width: 60%;
-    background-color:rgb(192, 211, 204);
+    width: 90%;
+    // background-color:rgb(192, 211, 204);
     height: 2px;
     margin: auto;
 }
 
 @media (max-width: 1000px){
     .header, .line {
-        width: 90%;
         align-items: center;
 
         h1, .bubble {
