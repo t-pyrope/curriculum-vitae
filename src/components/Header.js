@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import photo from '../img/photo2.jpg';
 import facebook from '../img/facebook.png';
 import github from '../img/github.png';
-import wordpress from '../img/wordpress.png';
+import stack from '../img/stack.png';
 import czech from '../img/czech.png';
 import russian from '../img/russian.png';
 import english from '../img/english.png';
@@ -29,7 +29,7 @@ const Header = () => {
         <div className="icons">
           <a href="https://github.com/t-pyrope" target="_blank" rel="noreferrer"><img src={github} alt="github" /></a>
           <a href="https://www.facebook.com/adylbek.kyzy/" target="_blank" rel="noreferrer"><img src={facebook} alt="facebook" /></a>
-          <a href="https://bakabegemot.wordpress.com/" target="_blank" rel="noreferrer"><img src={wordpress} alt="wordpress" /></a>
+          <a href="https://stackoverflow.com/users/13891817/mrmld-sky" target="_blank" rel="noreferrer"><img src={stack} alt="wordpress" /></a>
         </div>
       </div>
     </div>

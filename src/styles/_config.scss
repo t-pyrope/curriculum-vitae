@@ -1,0 +1,20 @@
+// primary colors
+$pink-grey: #af416b;
+$light-pink: #d9a7c7;;
+$dark-grey: rgb(34, 34, 34);
+$white: white;
+
+// fonts
+$header1-font: 'Roboto Mono', monospace;
+$header3-font: 'Lora', serif;
+$regular-font: 'Source Sans Pro', sans-serif;
+
+// gradients
+$pink-gradient: linear-gradient(to bottom, #d9a7c7, #fffcdc);
+
+// elements
+$text-color: $dark-grey;
+$bubble-color: $pink-grey;
+$bubble-text: $white;
+$link-color: $pink-grey;
+$fallback: $light-pink;
