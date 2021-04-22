@@ -14,7 +14,7 @@ const Skills = () => {
             :
           </b>
           {' '}
-          HTML, CSS, Javascript, React
+          HTML, CSS, Javascript, React.js, Adaptive Layout, Sass, ECMAScript
         </li>
         <li>
           <b>
